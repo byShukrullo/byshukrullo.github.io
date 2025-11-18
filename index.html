@@ -25,12 +25,11 @@
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <p class="tagline">Molecular Biologist · AI for Health</p>
+        <p class="tagline"> · AI specialist for Health and Biotechnology</p>
         <h1>Salom, men <span>Shukrullo Foziljonov</span>.</h1>
         <p class="hero-desc">
-          Men biotexnologiya, molekulyar genetika va sog‘liqni saqlashda qo‘llaniladigan sun’iy intellekt
-          kesishgan nuqtasida ishlayman. Ilmiy tadqiqotlar, AI loyihalar va sog‘liqni saqlashdagi innovatsiyalar
-          – mening asosiy yo‘nalishim.
+          Men biotexnologiya, molekulyar genetika va sog‘liqni saqlash sohalarida qo‘llaniladigan sun’iy intellekt modellar va dasturlar
+          yaratish bo'yicha ishlayman. AI loyihalar  –  mening asosiy yo‘nalishim.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn primary">View Projects</a>
@@ -57,13 +56,14 @@
       <div>
         <h2>About me</h2>
         <p>
-          Men molekulyar biolog, genetik muhandis va biotexnologman. O‘zbekiston va Italiyada ilmiy
-          tadqiqotlar bilan shug‘ullanib, sog‘liqni saqlash sohasiga sun’iy intellektni integratsiya qilishni
+          Men bioinformatik va biotexnologman. O‘zbekiston va Italiyada ilmiy
+          tadqiqotlar bilan shug‘ullanib, sog‘liqni saqlash va boshqa sohalargaga sun’iy intellektni integratsiya qilishni
           maqsad qilganman.
         </p>
         <p>
           Maqsadim – EHR va tibbiy tasvirlarni zamonaviy AI modellari yordamida tahlil qilish,
-          sog‘liqni saqlash tizimini samarali va bemorlar uchun qulayroq qilish.
+          sog‘liqni saqlash tizimini samarali va bemorlar uchun qulayroq qilish. Biotexnologik va labarator jarayonlarni 
+          sun'iy intellekt bilan integratsiyalashtirish
         </p>
       </div>
       <div class="info-cards">
@@ -71,7 +71,7 @@
           <h3>Education</h3>
           <ul>
             <li>Master – Biotechnologies and Applied AI for Health, University of Pisa</li>
-            <li>Bachelor – Molecular Biology & Genetics</li>
+            <li>Master – Biotechnology, National university of Uzbekistan</li>
           </ul>
         </div>
         <div class="info-card">
@@ -99,7 +99,7 @@
           </p>
         </div>
         <div class="card">
-          <h3>El-Yurt Umidi Scholar</h3>
+          <h3>"El-Yurt Umidi" Scholarship holder</h3>
           <p>
             “El-Yurt Umidi” jamg‘armasi granti asosida xorijda ta’lim olish imkoniyati.
           </p>
@@ -107,42 +107,68 @@
         <div class="card">
           <h3>Student of the Year</h3>
           <p>
-            Bakalavriat davrida ikki marta “Yil talabasi” nominatsiyasida g‘olib.
+            Mirzo Ulug'bek vorislari ilmiy-innovatsion loyihalar tanlovi g'olibi
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Projects -->
+    <!-- Projects -->
   <section id="projects" class="section">
     <div class="container">
       <h2>Selected Projects</h2>
       <div class="cards-grid">
-        <div class="card">
-          <h3>AI-based EHR Analysis Platform</h3>
+
+        <!-- Project 1 -->
+        <div class="card project-card">
+          <img src="assets/diabetes-ml.png" alt="Diabetes ML Project" class="project-image" />
+          <h3>Rentgen tasviri asosida pnevmoniyani aniqlovchi Model</h3>
           <p>
-            O‘zbekiston sog‘liqni saqlash tizimi uchun elektron tibbiy yozuvlar (EHR)ni tahlil qiluvchi
-            AI platforma kontsepsiyasi: kasallik prognozi, risk skoring, va klinik qarorlarni qo‘llab-quvvatlash.
+            -Normal Precision 98% ya'ni Rentgen tasviriga qarab bu Normal deganlarining deyarli hammasi haqiqatda normal. 
+            -Pneumonia Recall 99% ya'ni Kasal bo'lgan rasmlarni deyarli hammasini to'g'ri aniqlangan.
           </p>
-          <p class="meta">Tech: Python, ML, NLP</p>
+          <p class="meta">Tech: Python, scikit-learn, Pandas, Matplotlib</p>
+          <div class="project-links">
+            <a href="https://github.com/yourgithub/diabetes-ml" target="_blank" class="btn small primary">
+              GitHub
+            </a>
+            <a href="https://your-demo-link.com" target="_blank" class="btn small ghost">
+              Live demo
+            </a>
+          </div>
         </div>
-        <div class="card">
-          <h3>Gene Expression with Federated Learning</h3>
+
+        <!-- Project 2 -->
+        <div class="card project-card">
+          <img src="assets/ehr-ai.png" alt="EHR AI Platform" class="project-image" />
+          <h3>EKG natijasini tahlil qiluvchi model</h3>
           <p>
-            Saraton va boshqa kasalliklar bo‘yicha gene expression ma’lumotlarini federativ o‘qitish asosida
-            tahlil qilish g‘oyasi – ma’lumot maxfiyligini saqlagan holda model o‘qitish.
+            Umumiy 12000 ta rasm asosida yaratilgan modelning internetdan olingan 5ta random ECG rasmiga nisbatan aniqligi 100%.
           </p>
-          <p class="meta">Tech: PyTorch, Federated Learning</p>
+          <p class="meta">Tech: Python, NLP, Healthcare Data</p>
+          <div class="project-links">
+            <a href="https://github.com/yourgithub/ehr-platform" target="_blank" class="btn small primary">
+              GitHub
+            </a>
+          </div>
         </div>
-        <div class="card">
-          <h3>CRISPR/Cas9 for Salinity Tolerance</h3>
+
+        <!-- Project 3 -->
+        <div class="card project-card">
+          <img src="assets/crispr-cotton.png" alt="CRISPR for Salinity" class="project-image" />
+          <h3>EYUF AI bot</h3>
           <p>
-            Gossypium hirsutum L. da sho‘rlanishga chidamlilikni oshirish uchun CRISPR/Cas9 tizimi
-            qo‘llanilishi bo‘yicha mini-review va ilmiy izlanishlar.
+            "El-yurt umidi" jamg'armasi va uning tanlovlari haqida nomzodlarga javob beruvchi AI integratsiyalashgan Telegram bot.
           </p>
-          <p class="meta">Field: Plant Biotechnology</p>
+          <p class="meta">Field: AI intgration Telegram bot</p>
+          <div class="project-links">
+            <a href="https://t.me/eyufAIbot" target="_blank" class="btn small ghost">
+              Sinab ko'rish
+            </a>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -153,8 +179,8 @@
       <h2>Publications & Talks</h2>
       <ul class="timeline">
         <li>
-          <h3>Seminar: GMOdan foydalanish bo‘yicha davlat tartibi</h3>
-          <p>Ilmiy seminar, 2024 – xavfsiz GMO boshqaruvi va normativ huquqiy asoslar.</p>
+          <h3>Germaniya: Tbibbiyotda AI dan foydalanish</h3>
+          <p>Germaniya 2025.</p>
         </li>
         <li>
           <h3>Seminar: Molecular Markers in Genomics</h3>
@@ -174,13 +200,14 @@
       <div>
         <h2>Contact</h2>
         <p>
-          Hamkorlik, ilmiy loyihalar yoki intervyu takliflari bo‘lsa, bemalol bog‘lanishingiz mumkin.
+          Hamkorlik, ilmiy loyihalar takliflari bo‘lsa, bemalol bog‘lanishingiz mumkin.
         </p>
       </div>
       <div class="contact-box">
-        <p><strong>Email:</strong> your@email.com</p>
-        <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
-        <p><strong>GitHub:</strong> github.com/yourgithub</p>
+        <p><strong>Email:</strong> shukrullofoziljonov@email.com</p>
+        <p><strong>LinkedIn:</strong> www.linkedin.com/in/shukrullo-foziljonov/</p>
+        <p><strong>GitHub:</strong> github.com/byshukrullo</p>
+        p><strong>Telegram:</strong> https://t.me/ChatwithShukrullo_bot</p>
       </div>
     </div>
   </section>
