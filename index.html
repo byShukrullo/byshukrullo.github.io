@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>byShukrullo – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">by<span>Shukrullo</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="tagline">Molecular Biologist · AI for Health</p>
+        <h1>Salom, men <span>Shukrullo Foziljonov</span>.</h1>
+        <p class="hero-desc">
+          Men biotexnologiya, molekulyar genetika va sog‘liqni saqlashda qo‘llaniladigan sun’iy intellekt
+          kesishgan nuqtasida ishlayman. Ilmiy tadqiqotlar, AI loyihalar va sog‘liqni saqlashdagi innovatsiyalar
+          – mening asosiy yo‘nalishim.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-photo-placeholder">
+          <!-- Bu yerga keyin rasm qo‘yasan (img tag) -->
+          <span>Photo</span>
+        </div>
+        <ul class="hero-meta">
+          <li><strong>Specialization:</strong> Molecular Biology & AI for Health</li>
+          <li><strong>Location:</strong> Pisa, Italy · Uzbekistan</li>
+          <li><strong>Email:</strong> your@email.com</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div>
+        <h2>About me</h2>
+        <p>
+          Men molekulyar biolog, genetik muhandis va biotexnologman. O‘zbekiston va Italiyada ilmiy
+          tadqiqotlar bilan shug‘ullanib, sog‘liqni saqlash sohasiga sun’iy intellektni integratsiya qilishni
+          maqsad qilganman.
+        </p>
+        <p>
+          Maqsadim – EHR va tibbiy tasvirlarni zamonaviy AI modellari yordamida tahlil qilish,
+          sog‘liqni saqlash tizimini samarali va bemorlar uchun qulayroq qilish.
+        </p>
+      </div>
+      <div class="info-cards">
+        <div class="info-card">
+          <h3>Education</h3>
+          <ul>
+            <li>Master – Biotechnologies and Applied AI for Health, University of Pisa</li>
+            <li>Bachelor – Molecular Biology & Genetics</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>Interests</h3>
+          <ul>
+            <li>AI in Healthcare</li>
+            <li>Genomics & Bioinformatics</li>
+            <li>Medical Image Analysis</li>
+            <li>Federated Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <h2>Achievements</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>State Scholarships</h3>
+          <p>
+            Mirzo Ulug‘bek va Prezident davlat stipendiyalari sovrindori.
+          </p>
+        </div>
+        <div class="card">
+          <h3>El-Yurt Umidi Scholar</h3>
+          <p>
+            “El-Yurt Umidi” jamg‘armasi granti asosida xorijda ta’lim olish imkoniyati.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Student of the Year</h3>
+          <p>
+            Bakalavriat davrida ikki marta “Yil talabasi” nominatsiyasida g‘olib.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Selected Projects</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>AI-based EHR Analysis Platform</h3>
+          <p>
+            O‘zbekiston sog‘liqni saqlash tizimi uchun elektron tibbiy yozuvlar (EHR)ni tahlil qiluvchi
+            AI platforma kontsepsiyasi: kasallik prognozi, risk skoring, va klinik qarorlarni qo‘llab-quvvatlash.
+          </p>
+          <p class="meta">Tech: Python, ML, NLP</p>
+        </div>
+        <div class="card">
+          <h3>Gene Expression with Federated Learning</h3>
+          <p>
+            Saraton va boshqa kasalliklar bo‘yicha gene expression ma’lumotlarini federativ o‘qitish asosida
+            tahlil qilish g‘oyasi – ma’lumot maxfiyligini saqlagan holda model o‘qitish.
+          </p>
+          <p class="meta">Tech: PyTorch, Federated Learning</p>
+        </div>
+        <div class="card">
+          <h3>CRISPR/Cas9 for Salinity Tolerance</h3>
+          <p>
+            Gossypium hirsutum L. da sho‘rlanishga chidamlilikni oshirish uchun CRISPR/Cas9 tizimi
+            qo‘llanilishi bo‘yicha mini-review va ilmiy izlanishlar.
+          </p>
+          <p class="meta">Field: Plant Biotechnology</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section section-alt">
+    <div class="container">
+      <h2>Publications & Talks</h2>
+      <ul class="timeline">
+        <li>
+          <h3>Seminar: GMOdan foydalanish bo‘yicha davlat tartibi</h3>
+          <p>Ilmiy seminar, 2024 – xavfsiz GMO boshqaruvi va normativ huquqiy asoslar.</p>
+        </li>
+        <li>
+          <h3>Seminar: Molecular Markers in Genomics</h3>
+          <p>Genomika va Bioinformatika markazida molekulyar markerlar bo‘yicha chiqish.</p>
+        </li>
+        <li>
+          <h3>Juglans regia Genetic Studies</h3>
+          <p>Oddiy yong‘oq navlari o‘rtasidagi genetik o‘xshashlikni mikrosatellit markerlar asosida tahlil qilish.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container two-col">
+      <div>
+        <h2>Contact</h2>
+        <p>
+          Hamkorlik, ilmiy loyihalar yoki intervyu takliflari bo‘lsa, bemalol bog‘lanishingiz mumkin.
+        </p>
+      </div>
+      <div class="contact-box">
+        <p><strong>Email:</strong> your@email.com</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+        <p><strong>GitHub:</strong> github.com/yourgithub</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> byShukrullo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Footerdagi yilni avtomatik yangilash
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
